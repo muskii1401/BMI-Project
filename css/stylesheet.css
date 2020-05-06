@@ -1,0 +1,258 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  ul,
+  ol,
+  li,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  div {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    background-color: seashell;
+    /* background-image: url('images/bgimg4.jpg');
+    background-attachment: fixed;
+    background-size: cover; */
+}
+
+header{
+	background-color: teal;
+	height: 10%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo{
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    width: 100%;
+}
+
+.sidebar{
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: blanchedalmond;
+    border: 1px solid coral;
+}
+
+.sidebar a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+}
+
+.sidebar a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.content{
+    height: 100%;
+    width: 85%;
+    margin-left: 15%;
+    padding: 50px 50px;
+}
+
+.content h3{
+    background-color: darkgray;
+}
+
+.content1{
+    margin-left: 15%;
+    height: 100%;
+    width: 85%;
+    padding: 0 50px;
+    margin-bottom: 20px;
+}
+
+.content2{
+    height: 100%;
+    width: 40%;
+    padding: 0 50px;
+    margin: 50px auto;
+    font-size: 20px;
+}
+
+.content2 h2{
+    margin-bottom: 20px;
+}
+
+.content p{
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.content1 p{
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.content1 h3{
+    background-color: darkgray;
+}
+
+.content-desc{
+    margin: 10px auto;
+    height: 100%;
+    width: 85%;
+    padding: 0 50px;
+}
+
+.content-desc h2{
+    background-color: darkgray;
+}
+
+.content-desc p{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.content ol li{
+    padding: 20px 50px;
+    text-align: justify;
+    margin: 20px 0;
+    font-size: 24px;
+    background-color: wheat;
+}
+
+.calculator-fields{
+    margin: 20px auto;
+    width: 50%;
+    background-color: lightcyan;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ht-inpt, .wt-inpt{
+    width: 60px;
+    text-align: right;
+}
+
+.result-field{
+    margin: 15px auto;
+    text-align: center;
+    height: 35px;
+    background-color: papayawhip;
+    color: black;
+    display: inline-block;
+}
+
+.li span{
+    text-emphasis: bold;
+}
+
+.comment-field{
+    width: 80%;
+}
+
+button{
+    padding: 12px 24px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+.result-btn{
+    padding: 15px 40px;
+    background-color: lightgray;
+    cursor: pointer;
+    box-shadow: 0 7px #666;
+  }
+  
+.result-btn:active{
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+table{
+    margin: 20px auto;
+    width: 50%;
+}
+
+.subs{
+    margin-left: 5px;
+}
+
+.comment-field{
+    text-align: center;
+}
+
+.risks{
+    text-align: justify;
+}
+
+table.cinfoT td.cinfoHdL {
+    border-bottom: 3px solid #666;
+    background-color: #E0F0FE;
+    font-weight: bold;
+    color: #000;
+    padding: 3px;
+}
+
+table.cinfoT td.cinfoHd {
+    border-bottom: 3px solid #666;
+    background-color: #E0F0FE;
+    font-weight: bold;
+    color: #000;
+    padding: 3px;
+}
+
+table.cinfoT td {
+    border: 1px solid #666;
+    color: #000;
+    padding: 3px;
+}
+
+li span{
+    font-weight: bold;
+}
+
+.tips li{
+    text-align: justify;
+    font-size: 18px;
+}
+
+.tips p{
+    font-weight: bold;
+    text-decoration: underline; 
+    color: red; 
+    font-size: 20px;
+}

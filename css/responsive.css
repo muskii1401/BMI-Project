@@ -1,0 +1,17 @@
+/* For Smartphones */
+@media all and (max-width: 670px) {
+header{
+    height: 20%;
+}    
+
+.container{
+    top: 20%;
+}
+
+.sidebar{
+    top: 20%;
+}
+
+
+
+}
